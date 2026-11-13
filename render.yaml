@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: unq-welcomer
+    name: b2r-welcomer
     runtime: node
     plan: free
     buildCommand: npm install

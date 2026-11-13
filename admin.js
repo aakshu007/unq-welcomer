@@ -103,7 +103,7 @@ function render(slots) {
       `Plan: ${planText}${daysRemaining !== null ? ` (${daysRemaining} days left)` : ''}\n` +
       `Customer: ${slot.customerNote || 'Valued Buyer'}\n` +
       `Portal: ${portalUrl}\n` +
-      `Discord Support: https://discord.gg/unq\n` +
+      `Discord Support: https://discord.gg/b2r\n` +
       `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
       `How to activate:\n` +
       `1. Open portal link above (or /slots.html)\n` +

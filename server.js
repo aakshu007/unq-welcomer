@@ -302,8 +302,8 @@ function slotState() {
 
   // Ensure Slot 1 always has an initial active key initialized so it is never locked/unassigned out of the box
   if (!slots[0].passwordHash) {
-    const defaultKey = 'KEY-S01-UNQ-2026';
-    slots[0].passwordHash = hashSecret(defaultKey, 'unq-s01-master');
+    const defaultKey = 'KEY-S01-B2R-2026';
+    slots[0].passwordHash = hashSecret(defaultKey, 'b2r-s01-master');
     slots[0].activeKey = defaultKey;
     slots[0].plan = 'Lifetime';
     slots[0].customerNote = 'Master Container Node 01';

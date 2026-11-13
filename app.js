@@ -58,7 +58,7 @@ function apiFetch(endpoint, options = {}) {
   options.headers = options.headers || {};
   options.headers['X-Slot-Id'] = String(currentSlotId);
   options.credentials = 'same-origin';
-  const savedToken = localStorage.getItem('unq_slot_session');
+  const savedToken = localStorage.getItem('b2r_slot_session') || localStorage.getItem('unq_slot_session');
   if (savedToken) {
     options.headers['X-Slot-Token'] = savedToken;
   }

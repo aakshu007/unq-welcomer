@@ -72,5 +72,5 @@ Render's Free tier spins down after 15 minutes of inactivity. To keep your Disco
 ## 🌐 Public Leasing Portal
 
 - **URL**: `https://<your-app-name>.onrender.com/slots.html`
-- Directs prospective buyers to **`https://discord.gg/unq`**.
+- Directs prospective buyers to **`https://discord.gg/b2r`**.
 - Authenticated users access their isolated control room at `/dashboard.html?slot=<id>`.
